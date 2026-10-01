@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# ML data & artifacts (do not commit raw datasets or large models)
+ml/data/raw/
+ml/saved_models/*.pt
+ml/saved_models/*.onnx
+ml/saved_models/*.pkl
+*.pt
+*.onnx
+*.h5
+
+# IDEs / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Alembic / local db
+*.db
+*.sqlite3
+
