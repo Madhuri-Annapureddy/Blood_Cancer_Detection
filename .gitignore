@@ -20,6 +20,8 @@ ml/saved_models/*.pkl
 *.pt
 *.onnx
 *.h5
+*.keras
+ml/saved_models/*.keras
 
 # IDEs / OS
 .idea/
